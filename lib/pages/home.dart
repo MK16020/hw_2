@@ -7,43 +7,31 @@ class myApp extends StatelessWidget {
     var blue = Colors.blue;
     return MaterialApp(
       home: Scaffold(
-        body: Column(
-          children: [
-            Column(
-              children: [
-                Row(
-                  children: [
-                    Icon(
-                      Icons.hardware,
-                      color: blue,
-                      size: 24.0,
-                    ),
-                    const Spacer(
-                      flex: 1,
-                    ),
-                    const Text('data'),
-                  ],
-                )
-              ],
-            ),
-            Column(
-              children: [
-                Row(
-                  children: [
-                    Icon(
-                      Icons.hardware,
-                      color: blue,
-                      size: 24.0,
-                    ),
-                    const Spacer(
-                      flex: 1,
-                    ),
-                    const Text('data'),
-                  ],
-                )
-              ],
-            ),
-          ],
+        body: Center(
+          child: Column(
+            children: [
+              Column(
+                children: [
+                  Icon(
+                    Icons.hardware,
+                    color: blue,
+                    size: 24.0,
+                  ),
+                  const Text('data'),
+                ],
+              ),
+              Column(
+                children: [
+                  Icon(
+                    Icons.hardware,
+                    color: blue,
+                    size: 24.0,
+                  ),
+                  const Text('data'),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );

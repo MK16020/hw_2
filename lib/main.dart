@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hw_2/pages/home.dart';
 
 void main() {
   runApp(myApp());
-}
-
-class myApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    throw UnimplementedError();
-  }
 }
